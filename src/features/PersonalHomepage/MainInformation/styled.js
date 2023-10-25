@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as EnvelopeIcon } from "./Envelope.svg";
 
-
 export const Wrapper = styled.header`
     margin-top: -23px;
     display: grid;
@@ -39,6 +38,7 @@ export const Summary = styled.p`
 `;
 
 export const ButtonLink = styled.a`
+    text-decoration: none;
     padding: 12px 16px;
     font-size: 20px;
     font-weight: 600;
