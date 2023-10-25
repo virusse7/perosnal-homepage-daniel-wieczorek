@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { SubHeader } from "../SubHeader/index";
 import { ReactComponent as bulletImage } from "./bullet.svg";
 
 export const Bullet = styled(bulletImage)`
@@ -13,12 +14,8 @@ export const Section = styled.section`
     margin-top: 72px;
 `;
 
-export const Header = styled.h2`
-    margin: 0;
+export const Header = styled(SubHeader)`
     padding-bottom: 16px;
-    color: ${({ theme }) => theme.colors.textprimary};
-    font-size: 30px;
-    font-weight: 900;
     letter-spacing: 1.5px;
     border-bottom: 1px solid ${({ theme }) => theme.colors.headerLine};
 `;
