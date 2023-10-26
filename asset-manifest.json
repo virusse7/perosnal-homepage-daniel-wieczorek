@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Personal-Homepage/static/js/main.fb1dc384.js",
+    "static/media/profile.jpg": "/Personal-Homepage/static/media/profile.b24494b1a657dec8c1c9.jpg",
+    "static/media/sun.svg": "/Personal-Homepage/static/media/sun.8f3f8b9d767741aaa68ff7ce0a7de178.svg",
+    "static/media/GithubIcon.svg": "/Personal-Homepage/static/media/GithubIcon.4ddd1ffa26898f4d92589a3f104dc89d.svg",
+    "static/media/github.svg": "/Personal-Homepage/static/media/github.5b464170f634d5e87e004f07080cd478.svg",
+    "static/media/Danger.svg": "/Personal-Homepage/static/media/Danger.9c0e6ac0777a618b502b6f9779d7379e.svg",
+    "static/media/LinkedIcon.svg": "/Personal-Homepage/static/media/LinkedIcon.8e4ac02ce7feebba4972d3b4e4c08775.svg",
+    "index.html": "/Personal-Homepage/index.html",
+    "static/media/Envelope.svg": "/Personal-Homepage/static/media/Envelope.77f8b6df4100909ad86a40bff6873707.svg",
+    "static/media/icon-spinner.svg": "/Personal-Homepage/static/media/icon-spinner.c2b9c0f80114cdae2abbce9fa9023f43.svg",
+    "static/media/bullet.svg": "/Personal-Homepage/static/media/bullet.68407598b5fb839af5aec77b06100eb5.svg",
+    "main.fb1dc384.js.map": "/Personal-Homepage/static/js/main.fb1dc384.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fb1dc384.js"
+  ]
+}
