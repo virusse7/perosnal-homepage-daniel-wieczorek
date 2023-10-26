@@ -1,4 +1,4 @@
-import { Wrapper, Avatar, ThisIs, Name, Summary, ButtonLink, Icon } from "./styled";
+import { Wrapper, Avatar, ThisIs, Name, Summary, Icon, StyledButtonLink } from "./styled";
 import profile from "./profile.jpg";
 import { email } from "../email";
 
@@ -14,10 +14,10 @@ export const MainInformation = () => {
                     my next step is to be Fullstack Developer
                     and I will go for it!
                 </Summary>
-                <ButtonLink href={`mailto:${email}`} title={email} >
+                <StyledButtonLink href={`mailto:${email}`} title={email} >
                     <Icon />
                     Hire Me
-                </ButtonLink>
+                </StyledButtonLink>
             </div>
         </Wrapper>
     );
