@@ -17,7 +17,8 @@ export const GlobalStyle = createGlobalStyle`
         transition: 0.3s;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-            padding-bottom: 32px;
+            padding: 32px 16px;
+
         };
     };
 `;

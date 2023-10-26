@@ -26,10 +26,19 @@ export const EmailLink = styled.a`
     &:hover {
         color: ${({ theme }) => theme.colors.primary};
     }
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
 `;
 
 export const EmailWrapper = styled.div`
     margin: 24px 0;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin: 12px 0;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -40,4 +49,9 @@ export const Paragraph = styled.p`
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.9px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
 `;

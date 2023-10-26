@@ -11,6 +11,10 @@ export const List = styled.ul`
     list-style: none;
     display: flex;
     gap: 24px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin-top: 40px;
+    }
 `;
 
 export const Link = styled.a`

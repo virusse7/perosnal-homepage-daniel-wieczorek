@@ -6,6 +6,10 @@ export const List = styled.ul`
     grid-template-columns: 1fr 1fr;
     gap: 32px;
     padding: 0;
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const Tile = styled.li`
@@ -22,6 +26,10 @@ export const Tile = styled.li`
     &:hover {
        border-color: ${({ theme }) => theme.colors.tile.borderHover};
     };
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        padding: 24px;
+    }
 `;
 
 export const Name = styled.h3`
@@ -31,6 +39,11 @@ export const Name = styled.h3`
     letter-spacing: 1.2px;
     color: ${({ theme }) => theme.colors.tile.header};
     text-transform: capitalize;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
 `;
 
 export const Description = styled.p`
@@ -40,17 +53,30 @@ export const Description = styled.p`
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.9px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
 `;
 
 export const Links = styled.dl`
     display: grid;
     line-height: 160%;
+    gap: 8px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
-export const LinksRow = styled.div`
+export const LinksRow = styled.span`
     display: grid;
     grid-template-columns: 4em 1fr;
-    gap: 8px;
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
 `;
 
 export const Link = styled.a`
@@ -72,4 +98,9 @@ export const LinksValue = styled.p`
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.9px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
 `;

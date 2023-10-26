@@ -8,11 +8,19 @@ export const Wrapper = styled.header`
     grid-template-columns: auto 1fr;
     gap: 66px;
     align-items: center;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const Avatar = styled.img`
-    height: 25vw;
+    width: 398px;
     border-radius: 50%;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 136px;
+    }
 `;
 
 export const ThisIs = styled.p`
@@ -28,6 +36,11 @@ export const Name = styled.h1`
     font-size: 32px;
     font-weight: 900;
     letter-spacing: 1.9px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 22px;
+        letter-spacing: 1.1px;
+    }
 `;
 
 export const Summary = styled.p`
@@ -36,6 +49,12 @@ export const Summary = styled.p`
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 1px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 75%;
+        font-size: 17px;
+        letter-spacing: 0.85px;
+    }
 `;
 
 export const Icon = styled(EnvelopeIcon)`
