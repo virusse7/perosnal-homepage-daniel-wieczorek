@@ -20,4 +20,5 @@ export const nextSkills = [
     "Redux-Saga (improve skills in this section)",
     "Working with API (improve skills in this section)",
     "React Context",
+    "MySQL",
 ];
