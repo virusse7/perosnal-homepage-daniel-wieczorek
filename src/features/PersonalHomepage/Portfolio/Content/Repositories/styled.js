@@ -61,6 +61,7 @@ export const Description = styled.p`
 `;
 
 export const Links = styled.dl`
+    text-align: center;
     display: grid;
     line-height: 160%;
     gap: 8px;
@@ -76,6 +77,7 @@ export const LinksRow = styled.span`
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;
         letter-spacing: 0.7px;
+        grid-template-columns: 1fr;
     }
 `;
 
