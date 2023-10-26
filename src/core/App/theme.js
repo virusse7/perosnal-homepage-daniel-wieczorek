@@ -79,7 +79,7 @@ export const themeDark = {
         },
         themeSwitch: {
             icon: colorNames.mineShaft,
-            background: colorNames.doveGray,
+            background: colorNames.white,
         },
     },
 };
