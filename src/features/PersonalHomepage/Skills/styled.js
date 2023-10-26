@@ -39,6 +39,10 @@ export const List = styled.ul`
     grid-template-columns: repeat(3, 1fr);
     gap: 8px 115px;
 
+    @media(max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
         padding-top: 12px;

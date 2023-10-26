@@ -6,7 +6,7 @@ export const List = styled.ul`
     grid-template-columns: 1fr 1fr;
     gap: 32px;
     padding: 0;
-    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         display: flex;
         flex-direction: column;
     }

@@ -18,7 +18,6 @@ export const GlobalStyle = createGlobalStyle`
 
         @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             padding: 32px 16px;
-
         };
     };
 `;

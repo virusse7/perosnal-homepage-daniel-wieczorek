@@ -13,6 +13,10 @@ export const Header = styled.header`
     font-weight: 700;
     letter-spacing: 1.2px;
     margin-top: 16px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 20px;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -22,5 +26,9 @@ export const Paragraph = styled.p`
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 1px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 16px;
+    }
 `;
 

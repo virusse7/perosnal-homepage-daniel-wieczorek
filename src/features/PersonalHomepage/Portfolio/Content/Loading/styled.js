@@ -9,6 +9,9 @@ const rotate = keyframes`
 
 export const StyledSpinner = styled(spinner)`
     animation: ${rotate} 1s linear infinite;
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 100px;
+    }
 `;
 
 export const Wrapper = styled.div`
