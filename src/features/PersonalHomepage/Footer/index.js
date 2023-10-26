@@ -7,7 +7,7 @@ import {
     LetsTalk,
     Paragraph,
     Wrapper,
-} from "./styled"
+} from "./styled";
 
 export const Footer = () => {
     return (
@@ -23,5 +23,5 @@ export const Footer = () => {
                 <SocialIcons />
             </Address>
         </Wrapper>
-    )
-}
+    );
+};

@@ -12,4 +12,4 @@ export const Skills = ({ skills, title }) => (
             ))}
         </List>
     </Section>
-)
+);

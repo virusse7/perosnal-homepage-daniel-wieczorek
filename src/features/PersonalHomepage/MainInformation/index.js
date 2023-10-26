@@ -10,7 +10,7 @@ export const MainInformation = () => {
                 <ThisIs>This is</ThisIs>
                 <Name>Daniel Wieczorek</Name>
                 <Summary>
-                    💻 I want to become a Frontend Developer in React at now,
+                    💻 I want to become a Frontend Developer in React,
                     my next step is to be Fullstack Developer
                     and I will go for it!
                 </Summary>

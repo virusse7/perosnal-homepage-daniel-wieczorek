@@ -12,9 +12,7 @@ export const LetsTalk = styled.h2`
     text-transform: uppercase;
 `;
 
-export const Address = styled.address`
-
-`;
+export const Address = styled.address``;
 
 export const EmailLink = styled.a`
     text-decoration: none;
