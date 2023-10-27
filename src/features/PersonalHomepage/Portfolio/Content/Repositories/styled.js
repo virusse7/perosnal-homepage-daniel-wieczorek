@@ -9,7 +9,7 @@ export const List = styled.ul`
     @media(max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         display: flex;
         flex-direction: column;
-    }
+    };
 `;
 
 export const Tile = styled.li`
@@ -29,7 +29,8 @@ export const Tile = styled.li`
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding: 24px;
-    }
+        justify-content: flex-start;
+    };
 `;
 
 export const Name = styled.h3`
@@ -43,7 +44,7 @@ export const Name = styled.h3`
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 16px;
         letter-spacing: 0.8px;
-    }
+    };
 `;
 
 export const Description = styled.p`
@@ -57,18 +58,18 @@ export const Description = styled.p`
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;
         letter-spacing: 0.7px;
-    }
+    };
 `;
 
 export const Links = styled.dl`
-    text-align: center;
     display: grid;
     line-height: 160%;
     gap: 8px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
-    }
+        word-break: break-word;
+    };
 `;
 
 export const LinksRow = styled.span`
@@ -77,8 +78,8 @@ export const LinksRow = styled.span`
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;
         letter-spacing: 0.7px;
-        grid-template-columns: 1fr;
-    }
+        
+    };
 `;
 
 export const Link = styled.a`
@@ -93,13 +94,14 @@ export const Link = styled.a`
     };
 `;
 
-export const LinksValue = styled.p`
+export const LinksValue = styled.span`
     margin: 0;
     color: ${({ theme }) => theme.colors.textprimary};
     font-size: 18px;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.9px;
+    text-align: start;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;

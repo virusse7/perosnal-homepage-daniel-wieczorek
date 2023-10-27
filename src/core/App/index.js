@@ -4,9 +4,7 @@ import { Normalize } from "styled-normalize";
 import { themeDark, themeLight } from "./theme";
 import { PersonalHomepage } from "../../features/PersonalHomepage";
 import { useSelector } from "react-redux";
-import { selectIsDarkTheme } from "../../common/themeSlice";
-
-
+import { selectIsDarkTheme } from "../../features/PersonalHomepage/ThemeSwitch/themeSlice";
 
 export const App = () => {
     const isDarkTheme = useSelector(selectIsDarkTheme);
