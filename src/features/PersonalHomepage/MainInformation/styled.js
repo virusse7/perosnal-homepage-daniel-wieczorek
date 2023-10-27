@@ -15,7 +15,7 @@ export const Wrapper = styled.header`
 `;
 
 export const Avatar = styled.img`
-    width: 398px;
+    width: 26vw;
     border-radius: 50%;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
