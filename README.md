@@ -1,4 +1,5 @@
 # Personal Homepage - website
+![PresentImage](./public/present-personalHomepage.png)
 Website created with React.js
 
 ## Table of Contents
