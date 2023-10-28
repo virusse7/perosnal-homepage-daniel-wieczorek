@@ -1,14 +1,29 @@
+# Personal Homepage - website
+Website created with React.js
+
+## Table of Contents
+* [Demo](#🌐-demo)
+* [Description](#📄-description)
+* [Used Technologies](#🛠️-used-technologies)
+* [Avaiable Scripts](#available-scripts)
+
 ### 🌐 Demo
 Link to site: https://virusse7.github.io/Personal-Homepage/
 
 ### 📄 Description
+
+At the start we have button to switch themes between light and dark with ternary operator and theme provider. Below we have small section with main information and description with skills, to show them i used map function.
+Also we have a portfolio which take repositories from github and map them to tiles with links to demo and code. Footer is with address information and links to socials. 
+<br>Website is responsive in three ways: mobile, desktop, tablet horizontal.
+
+Created project with own website where my skills are described to search first job. 
 
 ### 🛠️ Used technologies
 - React.js
 - Styled-components
 - Global Style
 - Theme styles with provider
-
+- Redux
 
 
 # Getting Started with Create React App
