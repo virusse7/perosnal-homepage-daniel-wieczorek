@@ -12,6 +12,10 @@ export const skills = [
     "Git",
     "Immutability",
     "Semantic & accessible HTML",
+    "Webpack",
+    "styled-components",
+    "Redux",
+    "Saga",
 ];
 
 export const nextSkills = [
@@ -21,4 +25,6 @@ export const nextSkills = [
     "Working with API (improve skills in this section)",
     "React Context",
     "MySQL",
+    "React Native",
+    "Tailwind CSS",
 ];

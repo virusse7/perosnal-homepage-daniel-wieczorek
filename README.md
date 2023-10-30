@@ -25,6 +25,8 @@ Created project with own website where my skills are described to search first j
 - Global Style
 - Theme styles with provider
 - Redux
+- Flexbox
+- Grid
 
 
 # Getting Started with Create React App
