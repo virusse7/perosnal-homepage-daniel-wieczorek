@@ -16,15 +16,16 @@ export const skills = [
     "styled-components",
     "Redux",
     "Saga",
+    "Tailwind CSS",
+    "TypeScript",
 ];
 
 export const nextSkills = [
     "Node.js",
-    "TypeScript",
     "Redux-Saga (improve skills in this section)",
     "Working with API (improve skills in this section)",
     "React Context",
     "MySQL",
     "React Native",
-    "Tailwind CSS",
+
 ];
