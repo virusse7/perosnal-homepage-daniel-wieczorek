@@ -4,7 +4,7 @@ export const List = styled.ul`
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 22px;
     padding: 0;
     @media(max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         display: flex;
@@ -13,7 +13,7 @@ export const List = styled.ul`
 `;
 
 export const Tile = styled.li`
-    padding: 56px;
+    padding: 30px;
     box-shadow: ${({ theme }) => theme.boxShadow};
     background: ${({ theme }) => theme.boxBackground};
     border: 6px solid ${({ theme }) => theme.colors.tile.border};
